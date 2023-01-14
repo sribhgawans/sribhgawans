@@ -1,0 +1,98 @@
+body{
+    flex-wrap: wrap;
+    background: #eee;
+    height: auto;
+    margin: 0;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.photo{
+    display: block;
+    width: 65%;
+    background-position: center;
+    height: 100vh;
+    margin:0 ;
+    justify-content: right;
+    
+}
+main{
+    background: white;
+ margin: auto;
+    width: 70%;
+    margin:auto;
+    height: 100vh;
+}
+.TXT{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+margin-top: 1px;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+h2{
+    font-weight: lighter;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    padding: 18px;
+    padding-left: 50;
+    padding-right: 50;
+    color: black;
+    display: inline-block;
+}
+img{
+    display: block;
+    width: 100%;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    border-left: dotted 2px white;
+    border-right: dotted 2px white;
+    padding: 0;
+}
+p{
+    text-align: center;
+    font-weight: lighter;
+}
+.heading{
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+    display: block;
+    text-align: center;
+   
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center; 
+    margin: auto;
+    color:black;
+    padding-bottom: 20px;
+}
+footer h1{
+    font-weight: 400;
+    font-size: 43px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
